@@ -1,0 +1,110 @@
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/sudheerthan/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/sudheerthan/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/sudheerthan/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/sudheerthan/esp/esp32-wifi/sdkconfig
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:22 CONFIG_APP_BUILD_TYPE_ELF_RAM was replaced with CONFIG_APP_BUILD_TYPE_RAM
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:292 CONFIG_ESP32_DEFAULT_CPU_FREQ_80 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:293 CONFIG_ESP32_DEFAULT_CPU_FREQ_160 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:294 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:295 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:296 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:299 CONFIG_ESP32_ULP_COPROC_ENABLED was replaced with CONFIG_ULP_COPROC_ENABLED
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:300 CONFIG_ESP32_ULP_COPROC_RESERVE_MEM was replaced with CONFIG_ULP_COPROC_RESERVE_MEM
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:301 CONFIG_ESP32_DEBUG_OCDAWARE was replaced with CONFIG_ESP_DEBUG_OCDAWARE
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:302 CONFIG_ESP32_BROWNOUT_DET was replaced with CONFIG_ESP_BROWNOUT_DET
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:303 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_0 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:304 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_1 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_1
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:305 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_2 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_2
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:306 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_3 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_3
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:307 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_4 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_4
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:308 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_5 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_5
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:309 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_6 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_6
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:310 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_7 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_7
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:311 CONFIG_ESP32_BROWNOUT_DET_LVL was replaced with CONFIG_ESP_BROWNOUT_DET_LVL
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:312 CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:313 CONFIG_ESP32_TIME_SYSCALL_USE_RTC was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:314 CONFIG_ESP32_TIME_SYSCALL_USE_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_HRT
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:315 CONFIG_ESP32_TIME_SYSCALL_USE_NONE was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_NONE
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:316 CONFIG_ESP32_RTC_CLK_SRC_INT_RC was replaced with CONFIG_RTC_CLK_SRC_INT_RC
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:317 CONFIG_ESP32_RTC_CLK_SRC_EXT_CRYS was replaced with CONFIG_RTC_CLK_SRC_EXT_CRYS
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:318 CONFIG_ESP32_RTC_CLK_SRC_EXT_OSC was replaced with CONFIG_RTC_CLK_SRC_EXT_OSC
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:319 CONFIG_ESP32_RTC_CLK_SRC_INT_8MD256 was replaced with CONFIG_RTC_CLK_SRC_INT_8MD256
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:320 CONFIG_ESP32_RTC_CLK_CAL_CYCLES was replaced with CONFIG_RTC_CLK_CAL_CYCLES
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:321 CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_DEEP_SLEEP_WAKEUP_DELAY
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:322 CONFIG_ESP32_XTAL_FREQ_40 was replaced with CONFIG_XTAL_FREQ_40
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:323 CONFIG_ESP32_XTAL_FREQ_26 was replaced with CONFIG_XTAL_FREQ_26
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:324 CONFIG_ESP32_XTAL_FREQ_AUTO was replaced with CONFIG_XTAL_FREQ_AUTO
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:325 CONFIG_ESP32_XTAL_FREQ was replaced with CONFIG_XTAL_FREQ
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:327 CONFIG_ESP32_NO_BLOBS was replaced with CONFIG_APP_NO_BLOBS
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:328 CONFIG_ESP32_COMPATIBLE_PRE_V2_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V2_1_BOOTLOADERS
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:329 CONFIG_ESP32_COMPATIBLE_PRE_V3_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V3_1_BOOTLOADERS
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:403 CONFIG_OTA_ALLOW_HTTP was replaced with CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:452 CONFIG_ESP32_PHY_CALIBRATION_AND_DATA_STORAGE was replaced with CONFIG_ESP_PHY_CALIBRATION_AND_DATA_STORAGE
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:453 CONFIG_ESP32_PHY_INIT_DATA_IN_PARTITION was replaced with CONFIG_ESP_PHY_INIT_DATA_IN_PARTITION
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:454 CONFIG_ESP32_PHY_MAX_WIFI_TX_POWER was replaced with CONFIG_ESP_PHY_MAX_WIFI_TX_POWER
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:455 CONFIG_ESP32_PHY_MAX_TX_POWER was replaced with CONFIG_ESP_PHY_MAX_TX_POWER
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:456 CONFIG_ESP32_REDUCE_PHY_TX_POWER was replaced with CONFIG_ESP_PHY_REDUCE_TX_POWER
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:497 CONFIG_ESP_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT_INIT
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:523 CONFIG_ESP32_WIFI_STATIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:524 CONFIG_ESP32_WIFI_DYNAMIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER_NUM
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:525 CONFIG_ESP32_WIFI_STATIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_STATIC_TX_BUFFER
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:526 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:527 CONFIG_ESP32_WIFI_TX_BUFFER_TYPE was replaced with CONFIG_ESP_WIFI_TX_BUFFER_TYPE
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:528 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER_NUM
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:529 CONFIG_ESP32_WIFI_CSI_ENABLED was replaced with CONFIG_ESP_WIFI_CSI_ENABLED
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:530 CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_TX_ENABLED
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:531 CONFIG_ESP32_WIFI_TX_BA_WIN was replaced with CONFIG_ESP_WIFI_TX_BA_WIN
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:532 CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_RX_ENABLED
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:533 CONFIG_ESP32_WIFI_RX_BA_WIN was replaced with CONFIG_ESP_WIFI_RX_BA_WIN
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:534 CONFIG_ESP32_WIFI_NVS_ENABLED was replaced with CONFIG_ESP_WIFI_NVS_ENABLED
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:535 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_0 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_0
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:536 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_1 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_1
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:537 CONFIG_ESP32_WIFI_SOFTAP_BEACON_MAX_LEN was replaced with CONFIG_ESP_WIFI_SOFTAP_BEACON_MAX_LEN
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:538 CONFIG_ESP32_WIFI_MGMT_SBUF_NUM was replaced with CONFIG_ESP_WIFI_MGMT_SBUF_NUM
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:540 CONFIG_ESP32_WIFI_IRAM_OPT was replaced with CONFIG_ESP_WIFI_IRAM_OPT
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:541 CONFIG_ESP32_WIFI_RX_IRAM_OPT was replaced with CONFIG_ESP_WIFI_RX_IRAM_OPT
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:542 CONFIG_ESP32_WIFI_ENABLE_WPA3_SAE was replaced with CONFIG_ESP_WIFI_ENABLE_WPA3_SAE
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:1154 CONFIG_WPA_MBEDTLS_CRYPTO was replaced with CONFIG_ESP_WIFI_MBEDTLS_CRYPTO
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:1155 CONFIG_WPA_WAPI_PSK was replaced with CONFIG_ESP_WIFI_WAPI_PSK
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:1156 CONFIG_WPA_DEBUG_PRINT was replaced with CONFIG_ESP_WIFI_DEBUG_PRINT
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:1157 CONFIG_WPA_TESTING_OPTIONS was replaced with CONFIG_ESP_WIFI_TESTING_OPTIONS
+/home/sudheerthan/esp/esp32-wifi/sdkconfig:1159 CONFIG_WPA_11KV_SUPPORT was replaced with CONFIG_ESP_WIFI_11KV_SUPPORT
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/sudheerthan/.espressif/python_env/idf5.1_py3.10_env/bin/python (found version "3.10.6") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "wifi-connection" version: 4e8a1c6
+-- Adding linker script /home/sudheerthan/esp/esp32-wifi/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/sudheerthan/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/sudheerthan/esp/esp-idf/components/app_trace /home/sudheerthan/esp/esp-idf/components/app_update /home/sudheerthan/esp/esp-idf/components/bootloader /home/sudheerthan/esp/esp-idf/components/bootloader_support /home/sudheerthan/esp/esp-idf/components/bt /home/sudheerthan/esp/esp-idf/components/cmock /home/sudheerthan/esp/esp-idf/components/console /home/sudheerthan/esp/esp-idf/components/cxx /home/sudheerthan/esp/esp-idf/components/driver /home/sudheerthan/esp/esp-idf/components/efuse /home/sudheerthan/esp/esp-idf/components/esp-tls /home/sudheerthan/esp/esp-idf/components/esp_adc /home/sudheerthan/esp/esp-idf/components/esp_app_format /home/sudheerthan/esp/esp-idf/components/esp_coex /home/sudheerthan/esp/esp-idf/components/esp_common /home/sudheerthan/esp/esp-idf/components/esp_eth /home/sudheerthan/esp/esp-idf/components/esp_event /home/sudheerthan/esp/esp-idf/components/esp_gdbstub /home/sudheerthan/esp/esp-idf/components/esp_hid /home/sudheerthan/esp/esp-idf/components/esp_http_client /home/sudheerthan/esp/esp-idf/components/esp_http_server /home/sudheerthan/esp/esp-idf/components/esp_https_ota /home/sudheerthan/esp/esp-idf/components/esp_https_server /home/sudheerthan/esp/esp-idf/components/esp_hw_support /home/sudheerthan/esp/esp-idf/components/esp_lcd /home/sudheerthan/esp/esp-idf/components/esp_local_ctrl /home/sudheerthan/esp/esp-idf/components/esp_mm /home/sudheerthan/esp/esp-idf/components/esp_netif /home/sudheerthan/esp/esp-idf/components/esp_netif_stack /home/sudheerthan/esp/esp-idf/components/esp_partition /home/sudheerthan/esp/esp-idf/components/esp_phy /home/sudheerthan/esp/esp-idf/components/esp_pm /home/sudheerthan/esp/esp-idf/components/esp_psram /home/sudheerthan/esp/esp-idf/components/esp_ringbuf /home/sudheerthan/esp/esp-idf/components/esp_rom /home/sudheerthan/esp/esp-idf/components/esp_system /home/sudheerthan/esp/esp-idf/components/esp_timer /home/sudheerthan/esp/esp-idf/components/esp_wifi /home/sudheerthan/esp/esp-idf/components/espcoredump /home/sudheerthan/esp/esp-idf/components/esptool_py /home/sudheerthan/esp/esp-idf/components/fatfs /home/sudheerthan/esp/esp-idf/components/freertos /home/sudheerthan/esp/esp-idf/components/hal /home/sudheerthan/esp/esp-idf/components/heap /home/sudheerthan/esp/esp-idf/components/http_parser /home/sudheerthan/esp/esp-idf/components/idf_test /home/sudheerthan/esp/esp-idf/components/ieee802154 /home/sudheerthan/esp/esp-idf/components/json /home/sudheerthan/esp/esp-idf/components/log /home/sudheerthan/esp/esp-idf/components/lwip /home/sudheerthan/esp/esp32-wifi/main /home/sudheerthan/esp/esp-idf/components/mbedtls /home/sudheerthan/esp/esp-idf/components/mqtt /home/sudheerthan/esp/esp-idf/components/newlib /home/sudheerthan/esp/esp-idf/components/nvs_flash /home/sudheerthan/esp/esp-idf/components/openthread /home/sudheerthan/esp/esp-idf/components/partition_table /home/sudheerthan/esp/esp-idf/components/perfmon /home/sudheerthan/esp/esp-idf/components/protobuf-c /home/sudheerthan/esp/esp-idf/components/protocomm /home/sudheerthan/esp/esp-idf/components/pthread /home/sudheerthan/esp/esp-idf/components/sdmmc /home/sudheerthan/esp/esp-idf/components/soc /home/sudheerthan/esp/esp-idf/components/spi_flash /home/sudheerthan/esp/esp-idf/components/spiffs /home/sudheerthan/esp/esp-idf/components/tcp_transport /home/sudheerthan/esp/esp-idf/components/ulp /home/sudheerthan/esp/esp-idf/components/unity /home/sudheerthan/esp/esp-idf/components/usb /home/sudheerthan/esp/esp-idf/components/vfs /home/sudheerthan/esp/esp-idf/components/wear_levelling /home/sudheerthan/esp/esp-idf/components/wifi_provisioning /home/sudheerthan/esp/esp-idf/components/wpa_supplicant /home/sudheerthan/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sudheerthan/esp/esp32-wifi/build
